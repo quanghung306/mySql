@@ -5,7 +5,7 @@ create table Customers(
     full_name varchar(45) not null,
     email	varchar(45) unique not null,
     phone_number varchar(45),	
-    address varchar(45)
+    address varchar(255)
 );
 create table Rooms(
     room_id int auto_increment primary key,

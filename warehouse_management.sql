@@ -10,7 +10,7 @@ create table Products (
 -- Bảng Nhà cung cấp
 create table Suppliers(
 	   supplier_id int auto_increment primary key,
-       supplier_name varchar(45) not null,-- tên nhà cung cấp
+       supplier_name varchar(45) not null,
        contact_person varchar(255) not null,
        phone_number varchar(20) not null,
        address varchar(255) null
